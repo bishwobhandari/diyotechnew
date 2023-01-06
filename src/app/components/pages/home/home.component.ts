@@ -8,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+  name: String
+  subject:String
+  phone_number:BigInteger
+
 
   ngOnInit(): void {
+  }
+
+  onSubmit(){
+    console.log("submitted")
   }
 
 }

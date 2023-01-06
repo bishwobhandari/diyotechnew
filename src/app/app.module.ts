@@ -12,6 +12,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { TeamComponent } from './components/pages/team/team.component';
 import { TeamdetailComponent } from './components/pages/teamdetail/teamdetail.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TeamdetailComponent } from './components/pages/teamdetail/teamdetail.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
